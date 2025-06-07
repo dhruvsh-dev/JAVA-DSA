@@ -13,7 +13,7 @@ public class LCM {
         while(n2 != 0){
             int temp = n2;
             n2 = n1 % n2;
-            n2 = temp;
+            n1 = temp;
         }
         return n1;
     }
